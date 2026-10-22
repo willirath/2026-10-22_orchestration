@@ -1,5 +1,11 @@
 # montepi
 
+> **Educational repository.** This package is a worked example of planning and multi-agent orchestration with Claude Code. The code is a toy; the process is the point.
+>
+> - [Session transcript](docs/transcript.md): the full Claude Code session that produced this repository.
+> - [Session summary](SESSION.md): the user's prompts and inline review remarks verbatim, Claude's replies condensed, and takeaways.
+> - [Plan](PLAN.md) and [working principles](CLAUDE.md): the artefacts the user reviewed and the agents built against.
+
 montepi estimates pi by Monte Carlo sampling. It draws random points in the unit square and counts the fraction that falls inside the quarter circle. The package returns the estimate with its standard error, the running estimate as the sample grows, and two plots. It is an importable Python module with no command-line interface.
 
 ## Method
