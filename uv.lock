@@ -485,6 +485,7 @@ plot = [
 
 [package.dev-dependencies]
 dev = [
+    { name = "matplotlib" },
     { name = "pytest" },
 ]
 
@@ -496,7 +497,10 @@ requires-dist = [
 provides-extras = ["plot"]
 
 [package.metadata.requires-dev]
-dev = [{ name = "pytest" }]
+dev = [
+    { name = "matplotlib" },
+    { name = "pytest" },
+]
 
 [[package]]
 name = "numpy"

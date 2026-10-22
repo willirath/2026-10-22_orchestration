@@ -9,7 +9,7 @@ dependencies = ["numpy"]
 plot = ["matplotlib"]
 
 [dependency-groups]
-dev = ["pytest"]
+dev = ["pytest", "matplotlib"]
 
 [build-system]
 requires = ["hatchling"]
